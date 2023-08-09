@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!--lien boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!--lien fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>produits</title>
+</head>
+<body>
+<header class="header"><!--contient notre barre de navigation et ses elements-->
+    <nav class="nav container">
+        <div class="navigation d-flex">
+            <!--icon du menu-->
+            <div class="icon1">
+                <i class='bx bx-menu'></i>
+            </div>
+            <div class="logo"> <!--lorsqu'on clique on revient a lacceuil-->
+                <a href=""><span>C</span>y-clique</a>
+            </div>
+            <div class="menu"> <!--notre menu-->
+                <div class="top">
+            <!--le bouton qui ferme le menu lorsque page en version mobile-->
+                    <span class="fermer">fermer<i class='bx bx-X'>X</i></span>
+                </div>
+            <!--nos liens hypertexte de navigation-->
+                    <ul class="nav-list d-flex">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="produits.html" class="nav-link">boutique</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">contacs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="panier.html" class="nav-link">panier</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--nos icones nous remarquerons que nous avons utilisé plusieurs 
+                fois la meme class d-flex sur plusieurs elements de notre barre 
+                de naviagtaion -->
+                 <div class="icons d-flex">
+                    <!--les icones importés de boxicons-->
+                    <div><i class='bx bx-search'></i></div>
+                    <div><i class='bx bx-user'></i></div>
+                    <div><i class='bx bx-heart'></i></div>
+                    <div><i class='bx bx-shopping-bag'></i>
+                        <!--le chiffre qui sera actualisé sur le sac de shopping-->
+                    <span class="align-center">0</span>
+                    </div>
+                </div>
+                
+            
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="clignot">
+    <div class="bloc">
+    <span>H</span>
+    <span>Y</span>
+    <span>P</span>
+    <span>E &nbsp</span>
+    <span>O</span>
+    <span>U &nbsp</span> 
+    <span>P</span>
+    <span>A</span>
+    <span>S !</span>
+    <div class="ligne"></div>
+    </div>
+</div>
+<!--les produits-->
+<div class="produits">
+    <div class="top">
+        <div class="office1">
+              <figure>
+                <img src="imagesArticles/article 1.jpg" alt="article1" class="offim">
+                <figcaption class="prix">15.000fcfa<button class="ajouter">ajouter </button><i class='bx bx-heart'></i></figcaption>
+              </figure>
+        </div>
+        <div class="office1">
+            <figure>
+              <img src="imagesArticles/article 2.jpg" alt="article1" class="offim">
+              <figcaption class="prix">15.000fcfa<button class="ajouter">ajouter</button><i class='bx bx-heart'></i></figcaption>
+            </figure>
+      </div>
+      <div class="office1">
+        <figure>
+          <img src="imagesArticles/article 4.jpg" alt="article1" class="offim">
+          <figcaption class="prix">15.000fcfa<button class="ajouter">ajouter </button><i class='bx bx-heart'></i></figcaption>
+        </figure>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+    <p class="leader">copyright aout2023/abidjan/cheickpoint Gomycode/FROM RONNA/LOIC KONAN</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>

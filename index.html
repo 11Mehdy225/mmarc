@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!--lien boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!--lien fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DomCH</title>
+</head>
+<body>
+    <div class="promo">
+        <span>qui dit aout , dit solde alors profitez !!!!!!!!</span>
+    </div>
+    <header class="header"><!--contient notre barre de navigation et ses elements-->
+        <nav class="nav container">
+            <div class="navigation d-flex">
+                <!--icon du menu-->
+                <div class="icon1">
+                    <i class='bx bx-menu'></i>
+                </div>
+                <div class="logo"> <!--lorsqu'on clique on revient a lacceuil-->
+                    <a href=""><span>C</span>y-clique</a>
+                </div>
+                <div class="menu"> <!--notre menu-->
+                    <div class="top">
+                <!--le bouton qui ferme le menu lorsque page en version mobile-->
+                        <span class="fermer">fermer<i class='bx bx-X'>X</i></span>
+                    </div>
+                <!--nos liens hypertexte de navigation-->
+                        <ul class="nav-list d-flex">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">acceuil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="produits.html" class="nav-link">boutique</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">contacs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="panier.html" class="nav-link">panier</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--nos icones nous remarquerons que nous avons utilisé plusieurs 
+                    fois la meme class d-flex sur plusieurs elements de notre barre 
+                    de naviagtaion -->
+                     <div class="icons d-flex">
+                        <!--les icones importés de boxicons-->
+                        <div><i class='bx bx-search'></i></div>
+                        <div><i class='bx bx-user'></i></div>
+                        <div><i class='bx bx-heart'></i></div>
+                        <div><i class='bx bx-shopping-bag'></i>
+                            <!--le chiffre qui sera actualisé sur le sac de shopping-->
+                        <span class="align-center">0</span>
+                        <a href="panier.html"></a>
+                        </div>
+                    </div>
+                    
+                
+                </div>
+            </div>
+        </nav>
+        <!--notre texte d'acceuil avec notre bouton qui nous oriente vers la section artciles -->
+        <div class="banniere">
+            <div class="banniere-contenu d-flex container">
+                <div class="gauche">
+                    <h1>
+                        jusqu'a 
+                        <span class="couleur textecli">80%* <br>
+                            de  reduction</span> <br>
+                        sur votre panier  cette semaine <br>
+                    </h1>
+                    <marquee><h6>*offre soumise a condition</h6></marquee>
+                    <a href="produits.html" class="btn">let'sss Goo</a>
+                </div>
+                <!--notre image sur le cote droit -->
+                <div class="droit">
+                    <img src="./images/omg.jpg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--nos service-->
+    <section class="section service">
+        <div class="service-center container">
+            <div class="service">
+                <span class="icon">
+                    <div>
+                        <i class='bx bxs-purchase-tag'></i>
+                    </div>
+                    <h4>livraison gratuite</h4>
+                </span>
+            </div>
+            <div class="service">
+                <span class="icon">
+                    <div>
+                        <i class='bx bx-lock'></i>
+                    </div>
+                    <h4>paiement securisé </h4>
+                </span>
+            </div>
+            <div class="service">
+                <span class="icon">
+                    <div>
+                        <i class='bx bx-headphone'></i>
+                    </div>
+                    <h4>Nous contacter</h4>
+                </span>
+                
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+          <p class="leader">copyright aout2023/abidjan/cheickpoint Gomycode/FROM RONNA/LOIC KONAN</p>
+      </footer>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

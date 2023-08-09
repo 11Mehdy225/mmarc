@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!--lien boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!--lien fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DomCH</title>
+</head>
+<body>
+    <section class="panier0">
+        <div class="retour">
+            <button  class="bouton-retour" onclick="history.back()">Retour</button>
+        </div>
+        <div class="panier1">
+            <div class="image">
+              <img src="imagesArticles/article 1.jpg" alt="Robe 1">
+            </div>
+            <div class="montant">
+              <p id="prix">Prix: 15000 <br><p class="removearticle" ><i class='bx bxs-trash'></i></p></p>
+            </div>
+            <div class="quantite">
+              <label for="quantite1">Quantité:</label>
+              <input type="number" id="quantite1" name="quantite1" value="" min="1">
+              <button class="btn-decre" >-</button>
+              <button class="btn-incre" >+</button>
+            </div>
+            <div >
+              <span class="total"></span>
+            </div>
+            <button class="validerachat">Valider achat</button>
+          </div>
+</section>
+<script type="text/javascript" src="./script.js"></script>
+</body>
